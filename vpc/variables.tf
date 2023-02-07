@@ -12,5 +12,5 @@ variable "subnet-cidr" {
 
 
 variable "az-subnet" {
-  type = list
+  
 }
