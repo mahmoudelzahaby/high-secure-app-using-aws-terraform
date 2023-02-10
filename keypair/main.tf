@@ -13,7 +13,7 @@ resource "aws_key_pair" "generated_key" {
   provisioner "local-exec" {
     command = <<-EOT
       echo '${tls_private_key.terrafrom_generated_private_key.private_key_pem}' > key-pair.pem
-      chmod 400 aws_keys_pairs.pem
+      chmod 400 key-pair.pem
     EOT
   }
 }
