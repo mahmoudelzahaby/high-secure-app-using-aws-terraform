@@ -1,4 +1,5 @@
 # High Secure App using AWS and Terraform
+<img width="535" alt="Q" src="https://user-images.githubusercontent.com/99130650/217247888-f2126a51-1c9d-4635-96da-16a0af43a874.png">
 This repository contains Terraform code that deploys a high secure app on AWS. The app includes an EC2 instance running Ubuntu 20.04, a VPC with public and private subnets, and security groups that allow inbound traffic to the app only from specific IP addresses.
 
 ## Prerequisites
